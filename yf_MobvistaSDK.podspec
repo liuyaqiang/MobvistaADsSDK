@@ -15,10 +15,10 @@ s.author       = { "liuyaqiang" => "344257448@qq.com" }
 
 
 s.platform     = :ios, '8.0'
-s.requires_arc = true
 
 s.source           = { :git => "https://github.com/liuyaqiang/yf_MobvistaSDK.git", :tag => "#{s.version}" }
 s.vendored_frameworks = 'Mobvista/MVSDK.framework','Mobvista/MVSDKInterstitial.framework','Mobvista/MVSDKReward.framework'
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation'
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'StoreKit'
+s.libraries = 'z', 'stdc++', 'sqlite3'
 end
