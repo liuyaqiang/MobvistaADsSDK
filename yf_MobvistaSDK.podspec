@@ -18,7 +18,7 @@ s.platform     = :ios, '8.0'
 s.requires_arc = true
 
 s.source           = { :git => "https://github.com/liuyaqiang/yf_MobvistaSDK.git", :tag => "#{s.version}" }
- s.vendored_frameworks = 'Mobvista/MVSDK.framework','Mobvista/MVSDKInterstitial.framework','Mobvista/MVSDKReward.framework'
+s.vendored_frameworks = 'Mobvista/MVSDK.framework','Mobvista/MVSDKInterstitial.framework','Mobvista/MVSDKReward.framework'
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation'
 end
