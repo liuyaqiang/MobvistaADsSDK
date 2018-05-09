@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_MobvistaSDK"
-s.version          = "3.3.0"
+s.version          = "3.8.0"
 s.summary          = "yf_MobvistaSDK"
 
 s.description      = <<-DESC
