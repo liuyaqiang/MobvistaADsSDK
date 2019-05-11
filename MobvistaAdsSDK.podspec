@@ -1,12 +1,12 @@
 
 
 Pod::Spec.new do |s|
-s.name             = "yf_MobvistaSDK"
+s.name             = "MobvistaAdsSDK"
 s.version          = "4.8.0"
-s.summary          = "yf_MobvistaSDK"
+s.summary          = "MobvistaAdsSDK"
 
 s.description      = <<-DESC
-yf_MobvistaSDK for ads
+AdsSDK for Mobvista 
 DESC
 
 s.homepage         = "https://www.baidu.com"
@@ -16,7 +16,7 @@ s.author       = { "liuyaqiang" => "344257448@qq.com" }
 
 s.platform     = :ios, '8.0'
 
-s.source           = { :git => "https://github.com/liuyaqiang/yf_MobvistaSDK.git", :tag => "#{s.version}" }
+s.source           = { :git => "https://github.com/liuyaqiang/MobvistaAdsSDK.git", :tag => "#{s.version}" }
 s.vendored_frameworks = 'Mobvista/MTGSDK.framework','Mobvista/MTGSDKInterstitialVideo.framework','Mobvista/MTGSDKReward.framework'
 
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
